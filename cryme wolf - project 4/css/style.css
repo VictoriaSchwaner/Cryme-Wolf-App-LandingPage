@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+head{
+	/*font-family: 'Asap', sans-serif;*/
+}
+.logo {
+	width: 200px;
+	float:left;
+}
+.nav ul{
+  color: #fff;
+	width: 760px;
+	/*float:right;*/
+	display: flex;
+	/*flex-flow: row wrap;*/
+	justify-content:flex-end;
+	align-items: flex-end;
+}
+.nav li {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 30px;
+  height: 30px;
+  font-family: Verdana, bold, sans-serif;
+  margin: 0px;
+}
+.nav img {
+	float: right;
+}
+
+header {
+  background-color: rgba(13,27,178,.85);
+	overflow: auto;
+	height: 50px;
+}
+main {
+	width: 960px;
+	margin: 0 auto;
+	font-family: Verdana, sans-serif;
+}
+.jumbo {
+  background: url(../images/topgirl.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*width: 1213px;*/
+	height: 800px;
+  /*font-family: Verdana, bold, sans-serif;*/
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+.jumbo h1, h2 {
+	padding: 0px;
+	margin: 0px;
+	width: 550px;
+	/*display:inline-block;*/
+}
+.jumbo h1 {
+	color: #001BB2;
+	text-align: left
+
+}
+.jumbo h2 {
+	text-align: center;
+}
+
+.iphone {
+	display: inline;
+	float:right;
+}
+
+.row1 {
+  display: flex;
+	padding-bottom: 50px;
+  /*font-family: Verdana, sans-serif;*/
+}
+
+.row2 {
+  display: flex;
+	/*font-family: Verdana, sans-serif;*/
+	padding-bottom: 50px;
+	text-align: left;
+}
+
+.functions {
+	width:33%;
+	padding: 0px 10px 0px 0px;
+}
+
+.functions h4 {
+		color: #001BB2;
+}
+.features {
+  float: left;
+	width:960px;
+	margin: 0 auto;
+}
+
+.row2 h4{
+	color: #001BB2;
+}
+.tweets {
+  background-color: #00ACED;
+  height: 300px;
+	text-align:center;
+  color: #fff;
+  border-top: 1px solid black;
+  border-color: #fff;
+	padding-top: 30px;
+}
+.tweetimage {
+  display: block;
+}
+.tweetname {
+	display: inline-block;
+
+}
+.tweetname p {
+	line-height: .3em;
+	color: #4A4A4A;
+	text-align: left;
+
+}
+.tweets h2 {
+  text-align: center;
+	/*font-family: Verdana, sans-serif;*/
+	padding-bottom: 35px;
+}
+.tweets p {
+	font-family: Arial, bold, sans-serif;
+}
+#exampletweet {
+	width: 593px;
+	margin: 10px auto;
+	font-size: 18px;
+}
+
+.press {
+  text-align:center;
+	/*margin: 0 auto;*/
+  /*font-family: Verdana, sans-serif;*/
+  padding-top: 30px;
+	margin: 0;
+}
+.press img {
+  padding: 50px;
+}
+
+.footer1container {
+	position: relative;
+}
+.footer1 {
+	width: 850px;
+  display: block;
+  font-family: Helvetica Neue, sans-serif;
+  margin: 0 auto;
+  display:flex;
+	border-top: 1px solid #979797;
+}
+.footer1 li{
+	color: #2638FF;
+	list-style-type: none;
+}
+
+.footer1 a{
+  text-decoration:none;
+}
+.how {
+  padding: 35px;
+}
+.support {
+  padding: 35px;
+}
+.social {
+  padding: 35px;
+}
+.about {
+  padding: 35px;
+}
+
+.copyright {
+  padding: 50px;
+  text-align: justify;
+}
