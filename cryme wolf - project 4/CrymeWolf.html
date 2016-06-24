@@ -7,6 +7,9 @@
      <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
      <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+     <!-- testing JQ below -->
+     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+     <script src="jquery.flip.min.js"></script>
 
     <body>
       <header>
@@ -34,10 +37,21 @@
               <img src="images/PlayStore.png">
             </div>
           </div>
-          <div class="hero-image">
-            <img src="images/iphone.png">
+          <div class="flip">
+              <div class="front">
+                  <img src="images/iphone.png" alt="iphone image of app home page"/>
+              </div>
+              <div class="back">
+                  <h3>Download now to see what the buzz is about!</h3>
+              </div>
           </div>
+          <!-- testing above -->
+          <!-- <div class="hero-image">
+            <img src="images/iphone.png">
+          </div> -->
         </div>
+        <!-- testing -->
+
 
         <div class = "row">
           <div class = "functions">
@@ -138,6 +152,14 @@
 
 <div class="copyright"> Designed by Victoria Schwaner
 </div>
-
+    <!-- testing script below -->
+    <script>
+  $(function(){
+      $(".flip").flip({
+          trigger: 'hover',
+          axis: 'x'
+      });
+  });
+  </script>
     </body>
 </html>
