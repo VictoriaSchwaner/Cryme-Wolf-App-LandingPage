@@ -87,7 +87,6 @@ p {
 
 header {
   background-color: rgba(13,27,178,.85);
-	/*overflow: auto;*/
 	width: 100%;
 	height: 50px;
 	color: #fff;
@@ -98,7 +97,6 @@ header {
 main {
 	width: 960px;
 	margin: 0 auto;
-	font-family: Verdana, sans-serif;
 }
 .jumbo {
   background: url(../images/topgirl.png) no-repeat center center;
@@ -139,20 +137,16 @@ main {
     height: 536px;
     width: 267px;
 		float: right;
-    /*margin: 0 auto;*/centers it
 }
 .flip img {
     height: 536px;
 		width: 267px;
 		display: block;
 		float: right;
-		/*margin: 0px;*/
 		width: 267px;
 		padding: 50px 30px 0px 0px;
-		/*text-align: right;*/
 }
 .flip .back {
-    /*background: #4050FF;*/
     color: #2638FF;
     text-align: center;
 }
@@ -164,7 +158,6 @@ main {
 	padding-top: 130px;
 }
 .jumbo h2 {
-	/*text-align: center;*/
 	color: #4A4A4A;
 }
 .jumbo img {
@@ -173,10 +166,16 @@ main {
 }
 
 .row {
-	padding-top: 35px 0px 50px 0px;
+	padding: 100px;
   display: flex;
 	max-width:960px;
 	clear: both;
+}
+.one {
+	padding: 35px 1px 0px 0px;
+}
+.two {
+	padding: 35px 0px 50px 75px;
 }
 
 .row .functions {
